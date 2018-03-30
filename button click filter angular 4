@@ -1,0 +1,4 @@
+<input type="text" class="form-control" id="userName" [(ngModel)]="filterObject.userName"  #userNameRef="ngModel"  placeholder="User Name">
+
+<input type="text" class="form-control" id="firstName" [(ngModel)]="filterObject.firstName"  #firstNameRef="ngModel" placeholder="First Name">
+
